@@ -1,12 +1,12 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-#tomato-color{
+.tomato-color{
     color: tomato;
 }
 .flexible-container{
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 .flexible-container a{
     background-image: linear-gradient(tomato, salmon);
@@ -27,5 +27,15 @@ body{
 #second-part{
     background-image: url(images/need-image/7.png);
     background-repeat: no-repeat;
-    /* background-position: right; */
+}
+.order-menu{
+    text-align: center;
+}
+.manu-item{
+    display: flex;
+    justify-content: space-around;
+    background-color: wheat;
+}
+.recipies{
+    text-align: center;
 }
