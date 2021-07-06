@@ -12,7 +12,7 @@ header{
 
 .menu{
     
-    background-color: rgb(46, 2, 24);
+    background-color: rgb(231, 20, 126);
     overflow: hidden;
 }
 
@@ -134,9 +134,15 @@ footer{
 footer h1 {
     color: blanchedalmond;
 }
+/* follower part */
 #follower-part{
     display: flex;
+    padding-left: 40px;
+    margin-left: 40px;
     justify-content: space-around;
+    background-color: white;
+    width: 90%;
+    box-shadow: 10px 10px 20px gray;
 }
 .buttom-color{
     background-image: linear-gradient(tomato, salmon);
